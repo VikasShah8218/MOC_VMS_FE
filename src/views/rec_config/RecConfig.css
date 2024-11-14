@@ -1,0 +1,81 @@
+.shah-l{
+  display: flex;
+}
+
+.container {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  margin: 20px;
+  /* displa20pxy: flex; */
+  /* flex-direction: column; */
+  /* align-items: center; */
+  /* justify-content: center; */
+  /* height: 100vh; */
+  /* text-align: center; */
+  /* background-color: yellow; */
+}
+
+.input-group {
+  display: flex;
+  margin: 20px 0;
+
+}
+
+ .button, .select {
+  padding: 10px;
+  margin: 10px;
+  font-size: 16px;
+}
+
+.button {
+  cursor: pointer;
+}
+
+.name-list {
+  margin: 20px 0;
+}
+
+.name-item {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  margin: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.remove-button {
+  margin-left: 10px;
+  padding: 5px 10px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  background: none;
+  color: red;
+}
+
+.input-group{
+  /* background-color: green; */
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 100px;
+}
+.input-group input{
+  border-radius: 100px 0 0 100px;
+  padding-left:10px ;
+  background-color: transparent;
+  outline: none;
+}
+
+.input-group button{
+  /* background-color: blue; */
+  color: rgba(0, 0, 0, 0.437);
+  border: 1px solid rgba(105, 105, 105, 0.485);
+  border-radius: 100px;
+  width: 110px;
+  transition: 1s;
+}
+.input-group button :hover{
+ transform: scale(2);
+}
+
+

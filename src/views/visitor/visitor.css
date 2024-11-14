@@ -1,0 +1,11 @@
+.visitor-b{
+    display: grid;
+    grid-template-columns: repeat(3 ,1fr);
+    column-gap: 50px;
+    row-gap: 30px;
+}
+
+.visitor-a{
+    display: flex;
+    flex-direction: column;
+}
