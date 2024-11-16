@@ -192,12 +192,12 @@ const Dashboard = () => {
     ],
   };
 
-  // useEffect(() => {
-  //   getPassTimeLeft();
-  //   getTodayVisitorVisitDashboard();
-  //   getWeeklyVisitorVisit();
-  //   getVisitorInZones();
-  // }, []);
+  useEffect(() => {
+    getPassTimeLeft();
+    getTodayVisitorVisitDashboard();
+    getWeeklyVisitorVisit();
+    // getVisitorInZones();
+  }, []);
 
   return (
     <div className="p-6">
@@ -250,8 +250,8 @@ const Dashboard = () => {
                   <th className="px-6 pb-2">{t("Name")}</th>
                   <th className="px-6 pb-2">{t("Remaining Time")}</th>
                   {/* <th className="px-6 pb-2">{t("Phone No")}</th> */}
-                  <th className="px-6 pb-2">{t("Government ID Type")}</th>
-                  <th className="px-6 pb-2">{t("Government ID")}</th>
+                  {/* <th className="px-6 pb-2">{t("Government ID Type")}</th>
+                  <th className="px-6 pb-2">{t("Government ID")}</th> */}
                 </tr>
               </thead>
               <tbody style={{ maxHeight: "320px", overflowY: "auto" }}>
@@ -308,8 +308,8 @@ const Dashboard = () => {
                         </div>
                       </td>
                       {/* <td className="px-4 py-4">{visitor.phone}</td> */}
-                      <td className="px-6 py-4">{visitor.gov_id_type.replace('_', ' ')}</td>
-                      <td className="px-6 py-4">{visitor.gov_id_no}</td>
+                      {/* <td className="px-6 py-4">{visitor.gov_id_type.replace('_', ' ')}</td>
+                      <td className="px-6 py-4">{visitor.gov_id_no}</td> */}
                     </tr>
                   );
                 })}

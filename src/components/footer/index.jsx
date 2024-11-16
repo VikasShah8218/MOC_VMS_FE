@@ -12,9 +12,9 @@ const Footer = () => {
         </div>
         
       </div>
-      <div className="becil-logo" style={{width:'25px',marginRight:'20%'}}>
+      {/* <div className="becil-logo" style={{width:'25px',marginRight:'20%'}}>
         <img style={{width:"100%"}} src={becillogo} alt="" />
-      </div>
+      </div> */}
     </div>
   );
 };

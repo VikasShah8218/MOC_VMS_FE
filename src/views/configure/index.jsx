@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import Adams from './adam/Adams';
 import Zones from './zone/Zones';
-import Keys from './key/Keys';
-import Readers from './reader/Readers';
-import GuardReaderMappings from './map-guard/GuardReaderMappings';
+// import Keys from './key/Keys';
+// import Readers from './reader/Readers';
+// import GuardReaderMappings from './map-guard/GuardReaderMappings';
 import { useTranslation } from 'react-i18next';
 
 const Configure = () => {
@@ -36,7 +36,7 @@ const Configure = () => {
                             onClick={() => handleTabChange('zone')}
                             role="tab"
                         >
-                            {t("Zones")}
+                            {t("Adam Linked")}
                         </button>
                     </li>
                   

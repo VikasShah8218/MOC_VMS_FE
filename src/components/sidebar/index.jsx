@@ -1,8 +1,8 @@
 import React, { useState, useEffect, useContext } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { UserContext } from '../../context/UserContext';
-import modlogo from '../../assets/images/mod-logo.png';
-import becillogo from '../../assets/images/becil.png';
+import modlogo from '../../assets/images/mod-logo-1.png';
+import becillogo from '../../assets/images/logo.png';
 import ForumIcon from '@mui/icons-material/Forum';
 import CreditCardIcon from '@mui/icons-material/CreditCard';
 import ReceiptIcon from '@mui/icons-material/Receipt';
