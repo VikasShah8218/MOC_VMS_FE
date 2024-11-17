@@ -1,15 +1,16 @@
 /* Container */
-.container {
+/* .container {
   display: flex;
   gap: 20px;
   align-items: flex-start;
   width: 90%;
-  height: 80vh; /* Takes up 80% of the screen height */
+  height: 80vh; 
   margin: auto;
-}
+  margin-top: -20px;
+} */
 
 /* Main Visitor Box */
-.main-visitor {
+/* .main-visitor {
   flex: 2;
   height: 100%;
   background: #fff;
@@ -21,37 +22,38 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
+} */
 
-.main-visitor-image {
+/* .main-visitor-image {
   width: 80%;
   height: 70%;
   border-radius: 15px;
   object-fit: cover;
-}
+} */
 
-.main-visitor-title {
+/* .main-visitor-title {
   font-size: 2rem;
   font-weight: bold;
   margin-top: 10px;
-}
+} */
 
 /* Small Visitor Boxes */
-.small-visitors {
+/* .small-visitors {
   flex: 3;
   display: grid;
-  grid-template-columns: repeat(2, 1fr); /* Two columns */
-  grid-template-rows: repeat(2, 1fr); /* Two rows */
+  grid-template-columns: repeat(2, 1fr); 
+  grid-template-rows: repeat(2, 1fr); 
   gap: 20px;
   height: 100%;
-}
-
+} */
+/* 
 .visitor-card {
   background: #fff;
   border-radius: 15px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   text-align: center;
-  padding: 10px;
+  width: 300px;
+  height: 300px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -60,7 +62,7 @@
 
 .visitor-card-image {
   width: 80%;
-  height: 70%;
+  height: 80%;
   border-radius: 10px;
   object-fit: cover;
 }
@@ -68,5 +70,78 @@
 .visitor-title {
   font-size: 1.5rem;
   font-weight: bold;
-  margin-top: 5px;
+  margin-top: 5px; 
+}*/
+
+
+
+.visitor-container {
+  display: flex;
+  /* background-color: yellow; */
+  height: 90%;
+  padding: 10px;
+  margin-top: 50px;
 }
+
+.visitor-container .main-visitor{
+  /* background-color: blue; */
+  width: 540px;
+  border-radius: 20px;
+  padding: 20px;
+  height: 560px;
+  border: 1px solid #b1af06;
+  background-color: #b89b72;
+
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.visitor-container .main-visitor img{
+  width: 100% !important;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.visitor-container .small-visitors{
+  height: 565px;
+  /* padding: 20px; */
+  /* background-color: bisque; */
+  margin-left: 20px;
+}
+.visitor-container .small-visitors .small-v-1{
+  display: flex;
+  /* margin: 5px; */
+  }
+.visitor-container .small-visitors .small-v-1 .visitor-card {
+  display: flex;
+  border: 1px solid #b1af06;
+  width: 450px;
+  border-radius: 20px;
+  margin: 0px 10px 20px 10px;
+  padding: 10px;
+  /* background-color: #b89b72; */
+  background: hsla(35, 33%, 58%, 1);
+
+  background: linear-gradient(90deg, hsla(35, 33%, 58%, 1) 1%, hsla(35, 33%, 58%, 1) 100%);
+  
+  background: -moz-linear-gradient(90deg, hsla(35, 33%, 58%, 1) 1%, hsla(35, 33%, 58%, 1) 100%);
+  
+  background: -webkit-linear-gradient(90deg, hsla(35, 33%, 58%, 1) 1%, hsla(35, 33%, 58%, 1) 100%);
+  
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#B89B72", endColorstr="#B89B72", GradientType=1 );
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+
+}
+    
+.visitor-container .small-visitors .small-v-1 .visitor-card .visitor-detail{
+  padding: 10px;
+  line-height: 50px;
+}
+.visitor-container .small-visitors .small-v-1 .visitor-card .visitor-image-box{
+  width: 250px;
+}
+.visitor-container .small-visitors .small-v-1 .visitor-card .visitor-image-box img{
+  width: 100%;
+  border-radius: 20px;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+
